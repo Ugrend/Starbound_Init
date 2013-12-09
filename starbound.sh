@@ -39,7 +39,7 @@ function updateStarBound {
 
 function startServer {
 
-	su - ${RUNAS} -c "cd ${STARBOUNDPATH} ; nohup ${STARBOUNDPATH}/linux32/launch_starbound_server.sh &"
+	su - ${RUNAS} -c "cd ${STARBOUNDPATH} ; nohup ${STARBOUNDPATH}/linux32/launch_starbound_server.sh &> /dev/null &"
 
 }
 
